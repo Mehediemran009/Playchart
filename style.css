@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+/* --=========Header Part==========--> */
+.top{
+    color: aliceblue;
+    background-color: rgb(20, 41, 21);
+    display: flex;
+    border-radius: 8px;
+    margin: 70px;
+    margin-top: 30px;
+    background-size: 100%;
+}
+.top1{
+    width: 40%;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+.top1 img{
+    width: 60%;
+    padding-left: 100px;
+    margin-bottom: -5px;
+    
+}
+
+.top-pra{
+    font-size: 20px;
+    margin-top: 70px;
+}
+.ref a{
+    
+    text-decoration: none;
+    background-image: linear-gradient(orange, red, orange);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+/* --=========animation Start==========--> */
+
+@keyframes sliding {
+    from {
+        margin-left: -300px;
+        margin-top: 70px;
+        width: 300px;
+
+
+    }
+    to{
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 725px;        
+    }
+}
+
+.animi{
+    animation: sliding 3s ease-in-out .02s 5 alternate;
+    position: absolute;
+    animation-play-state: running;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 725px;
+}
+/* --=========animation End==========--> */
+
+/* =============Side Box Start============ */
+
+.side{
+    background-color: rgb(54, 54, 54);
+    width: 312px;
+    height: 312px;
+    padding-top:25px;
+    border-radius: 6px;
+    margin-top: -12.5%;
+    margin-left: 20px;
+}
+
+.side-btn{
+    text-decoration: none;
+    font-size: 24px;
+    width: 250px;
+    height: 60px;
+    background-color: antiquewhite;
+    font-size: 25px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 18px;
+    color: black;
+    
+}
+
+.end{
+    background-color: brown;
+    color: antiquewhite;
+}
+/* ===========Side Box End============= */
+
+/* ===========Middle Part Start=========== */
+
+.course-title{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.chart{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 300px;
+}
+
+.course-pic img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 120px;
+    height: 100px;
+    border-radius: 25%;
+}
+.top-part-book{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    row-gap: 7px;
+    column-gap:7px;
+}
+
+.mid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    column-gap: 15px;
+    row-gap: 25px;
+}
+
+.course-info{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+    
+}
+.Course{
+border:1px solid rgb(221, 220, 220);
+border-radius: 8px;
+padding: 10px;
+}
+.course-duration{
+    background-color: rgb(75, 74, 74);
+    border-radius: 15px;
+    padding: 4px;
+    color: rgb(243, 243, 248);
+}
+
+/* ===========Middle Part End=========== */
+
+/* ==========Footer section Start======== */
+
+.footers{
+
+    background-color: darkslategrey;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-top: 7%;
+    
+}
+hr{
+    width: 80%;
+}
+.footer-part {
+    font-size: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+
+}
+.footer-part a{
+    padding-top: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+.footer-icon a{
+    font-size: 30px;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+.footer-icon a:hover{
+    font-size: 50px;
+
+}
+.footer-icon{
+    
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+
+}
+
+/* ==========Footer section End======== */
+
